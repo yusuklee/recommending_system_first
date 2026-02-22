@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat \"C:/Users/USER/Desktop/추천 시스템 입문/sub.ipynb\" | python -c \"import sys,json; nb=json.load\\(sys.stdin\\); [print\\(f'--- Cell {i} ---\\\\n{\\\\\"type: \\\\\"+c[\\\\\"cell_type\\\\\"]}\\\\n{\\\\\"source: \\\\\"+\\\\\"\\\\\".join\\(c[\\\\\"source\\\\\"]\\)}\\\\n{\\\\\"outputs: \\\\\"+str\\(c.get\\(\\\\\"outputs\\\\\",[]\\)\\)}\\\\n'\\) for i,c in enumerate\\(nb['cells']\\)]\" 2>/dev/null)",
+      "Bash(cd:*)"
+    ]
+  }
+}
